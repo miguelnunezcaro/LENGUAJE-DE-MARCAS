@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<articulos>
+    <nombre>sofa</nombre>
+    <precio>642</precio>
+    <nombre>mesa</nombre>
+    <precio>305</precio>
+    <nombre>lampara</nombre>
+    <precio>89</precio>
+</articulos>

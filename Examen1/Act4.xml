@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<cluster>
+    <nodo1 nombre = "primerNodo" IP = "121.121.33.33">
+        <maquinaVirtual1 nombre = "Cube" SO = "Linux" Interfaz = "CB">
+            <IP>1</IP>
+            <Mac>2</Mac>
+        </maquinaVirtual1>
+    </nodo1>
+    <nodo2 nombre = "segundoNodo" IP = "181.181.55.55">
+        <maquinaVirtual2 nombre = "VirtualBox" SO = "Windows" Interfaz = "VB">
+            <IP>3</IP>
+            <Mac>4</Mac>
+        </maquinaVirtual2>
+    </nodo2>
+    <nodo3 nombre = "tercerNodo" IP = "171.171.88.88">
+        <maquinaVirtual3 nombre = "BlackBox" SO = "Android" Interfaz = "BB">
+            <IP>5</IP>
+            <Mac>6</Mac>
+        </maquinaVirtual3>
+    </nodo3>
+    <nodo4 nombre = "cuartoNodo" IP = "191.191.99.99">
+        <maquinaVirtual4 nombre = "ServerBox" SO = "IOS" Interfaz = "SB">
+            <IP>7</IP>
+            <Mac>8</Mac>
+        </maquinaVirtual4>
+    </nodo4>
+</cluster>

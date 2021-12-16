@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<hechosHistoricos> 
+    <descripcionHecho1 primerHecho = "IBMdaAconocerElpc">
+        <fecha1>
+            <dia>12</dia>
+            <mes>8</mes>
+            <year>1981</year>
+        </fecha1>
+    </descripcionHecho1>
+    <descripcionHecho2 segundoHecho = "seFundaGoogle">
+        <fecha2>
+            <dia>4</dia>
+            <mes>9</mes>
+            <year>1998</year>
+        </fecha2>
+    </descripcionHecho2>
+    <descripcionHecho3 tercerHecho = "seFundaFacebook">
+        <fecha3>
+            <dia>4</dia>
+            <mes>2</mes>
+            <year>2004</year>        
+        </fecha3>  
+    </descripcionHecho3>
+</hechosHistoricos>
