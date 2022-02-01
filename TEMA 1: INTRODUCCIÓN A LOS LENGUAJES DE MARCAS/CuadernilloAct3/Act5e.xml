@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE disco SYSTEM "Act5.dtd">
+<disco>
+    <titulo>
+
+    </titulo>
+    <interprete>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <rol> </rol>
+    </interprete>
+    <numero_pista>
+        <nombre_cancion> </nombre_cancion>
+        <duracion> </duracion>
+    </numero_pista>
+</disco>

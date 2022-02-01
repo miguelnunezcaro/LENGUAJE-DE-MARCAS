@@ -1,0 +1,9 @@
+<!ELEMENT disco (titulo, interprete, numero_pista)>
+<!ELEMENT interprete (nombre, apellidos, rol)>
+<!ELEMENT numero_pista (nombre_cancion, duracion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT rol (#PCDATA)>
+<!ELEMENT nombre_cancion (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>

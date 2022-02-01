@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+<!ELEMENT inventores (inventor)* >
+<!ELEMENT inventor EMPTY>
+<!ATTLIST inventor nombre CDATA #REQUIRED>
+<!ATTLIST inventor invento ID #REQUIRED>
+]>
+<inventores> 
+    <inventor nombre="Robert Adler" invento="id_1" />
+    <inventor nombre="Laszlo Josef Biro" invento="id_2" />
+    <inventor nombre="Josephine Garis Cochran" invento="id_3" />
+    <inventor nombre= "Leonardo Da Vinci" invento="id_4" />
+</inventores>
