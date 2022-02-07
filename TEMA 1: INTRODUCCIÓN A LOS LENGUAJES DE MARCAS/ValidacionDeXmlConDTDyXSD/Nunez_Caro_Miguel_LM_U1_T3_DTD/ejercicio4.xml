@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<shiporder orderid="1">
+    <orderperson></orderperson>
+    <shipto>
+        <name></name>
+        <address></address>
+        <city></city>
+        <country></country>
+    </shipto>
+    <item>
+        <title></title>
+        <note></note>
+        <quantity>50</quantity>
+        <price>2</price>
+    </item>
+</shiporder>

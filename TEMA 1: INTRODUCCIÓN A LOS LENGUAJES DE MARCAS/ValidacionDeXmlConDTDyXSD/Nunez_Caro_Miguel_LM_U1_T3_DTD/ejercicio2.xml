@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ejercicio2.dtd">
+<Libro Catalogo="EL barco de vapor">
+    <Titulo>a</Titulo>
+    <Seccion>a</Seccion>
+    <Contenido>
+        <Capitulo>
+            <Tema>a</Tema>
+            <Tema>a</Tema>
+        </Capitulo>
+        <Capitulo>
+            <Tema>a</Tema>
+            <Tema>a</Tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright></Copyright>
+</Libro>

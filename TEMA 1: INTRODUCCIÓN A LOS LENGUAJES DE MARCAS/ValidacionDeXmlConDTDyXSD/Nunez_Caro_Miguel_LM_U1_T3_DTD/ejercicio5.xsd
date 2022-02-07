@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="libros">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libro" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[T][0-3][0-3][0-3]"></xs:pattern>
+                                        <xs:pattern value="[P][0-3][0-3][0-3]"></xs:pattern>
+                                        <xs:pattern value="[N][0-3][0-3][0-3]"></xs:pattern>
+                                        <xs:pattern value="[H][0-3][0-3][0-3]"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="categoria">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Teatro"></xs:enumeration>
+                                        <xs:enumeration value="Poesia"></xs:enumeration>
+                                        <xs:enumeration value="Novela"></xs:enumeration>
+                                        <xs:enumeration value="Historia"></xs:enumeration>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="titulo" type="xs:string"></xs:element>
+                            <xs:element name="autor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre"></xs:element>
+                                        <xs:element name="apellidos" minOccurs="1"></xs:element>
+                                        <xs:element name="pseudonimo" minOccurs="1"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="numeroPaginas" type="xs:integer"></xs:element>
+                            <xs:element name="publicationYear" type="xs:integer"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
