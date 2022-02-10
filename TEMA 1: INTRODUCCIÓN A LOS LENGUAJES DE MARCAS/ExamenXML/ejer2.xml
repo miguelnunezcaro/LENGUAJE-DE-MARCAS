@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "ejer2.dtd">
+<libreria catalogo="El barco">
+    <libro titulo="El principito" editorial="El barco de vapor" autor="Macgyver"/>
+    <revista marca="El Revistazo">
+        <numero>5</numero>
+        <titular>EP</titular>
+        <editorial>El barco de vapor</editorial>
+    </revista>
+    <periodico fecha="8 de Diciembre" nombre="El Pais"/>
+</libreria>
