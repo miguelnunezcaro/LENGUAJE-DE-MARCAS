@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejer3</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="3">
+                <fieldset style="background-color: turquoise;" style="text-align: center;">
+                    IES Alixar Login
+                </fieldset>
+            </th>
+        </tr>
+        <tr>
+            <td>Usuario:</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Fecha de Nacimiento:</td>
+            <td>
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>Curso de Matriculación:</td>
+            <td>
+                <input list="CURSO">
+                <datalist id="CURSO">
+                <option value="Primero DAW1" selected ></option> 
+                <option value="Segundo DAW2"></option>
+                </datalist>
+            </td>
+            <tr>
+                <td>Role:</td>
+                <td>
+                    <input type="radio">Estudiante<br>
+                    <input type="radio">Profesor<br>
+                    <input type="radio">Apoyo<br>
+                    <input type="radio">Staff<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Forma de comunicacion:</td>
+                <td>
+                    <input type="checkbox">Mail<br>
+                    <input type="checkbox">Telefono<br>
+                    <input type="checkbox">Correo ordinario<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </center>
+                </td>
+            </tr>
+        </tr>   
+    </table>
+    </form>
+</body>
+</html>
