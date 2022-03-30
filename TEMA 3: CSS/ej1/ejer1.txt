@@ -1,0 +1,10 @@
+En el Body le aplica un background-color para poner el color de fondo de la página web, 
+con la etiqueta body conseguimos que toda la página tenga ese fondo.
+A la etiqueta Headers, le aplica un color y un tamaño de fuente,
+ esta etiqueta sirve para los títulos.
+A la etiqueta HR le ponemos el color azul, 
+esta etiqueta sirve para poner una línea en nuestra página web.
+A las etiquetas de links le aplicamos el color verde, 
+si lo visitamos se le aplica el color amarillo, si nos ponemos encima del link se nos pondrá de color negro y 
+si clicamos sobre el link y dejamos pulsado se pondra de color azul.
+
