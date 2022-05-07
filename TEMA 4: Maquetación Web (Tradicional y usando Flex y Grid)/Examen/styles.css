@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    width: 50%;
+    float: left;
+    height: 150px;
+}
+#header{
+    height: 145px;
+}
+#img1{
+    width: 50%;
+    height: 130px;
+}
+.aside{
+    width: 50%;
+    float: right;
+    height: 100px;
+   
+}
+#img2{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+}
+#img3{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+}
+#img4{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-top: 10px;
+}
+#input1{
+    padding: 10px;
+    margin-left: 62%;
+    width: 30%;
+    margin-top: 10px;
+}
+
+div nav{
+    background-color:#ff0080 ;
+    z-index: 100;
+    height: 50px ;
+    padding-top: 26px;
+    color: white;
+}
+div nav li{
+   display: inline;
+   list-style-type: none;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding-top: 15px;
+}
+#divTwitter{
+    width: 25%;
+    float: right;
+    margin-top: 20px;
+    height: 600px;
+}
+.h3Twt{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.imgTwt{
+    width: 100%;
+    height: 500px;
+}
+#paragraphTwt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#divBanner{
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+}
+.imgBanner{
+    width: 98%;
+}
+#divLogos{ 
+    height: 600px;
+    width: 100%;
+}
+.foto1{
+    background-color: white;
+    border: 2px solid #ff0080;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    height: 200px;
+    margin-left: 10%;
+    float: left;
+}
+.foto1 img{
+    width: 80%;
+    margin-top: 20%;
+}
+.foto2{
+    background-color: white;
+    border: 2px solid #ff0080;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    height: 200px;
+    margin-left: 10%;
+    float: left;
+}
+.foto2 img{
+    width: 80%;
+    margin-top: 20%;
+}
+.foto3{
+    background-color: white;
+    border: 2px solid #ff0080;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+    height: 200px;
+    margin-left: 10%;
+    float: left;
+}
+.foto3 img{
+    width: 80%;
+    margin-top: 20%;
+}
+.footer{
+    background-color:#ff0080 ;
+    height: 80px;
+    color: white;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+#paragraph2{
+  text-align: center;
+  padding-top: 20px;
+}
